@@ -31,3 +31,12 @@ Now install Huggingface transformes
 pip3 install "transformers[sentencepiece]"
 ```
 
+## Jupyter
+
+This should start jupyter lab inside the same virtual environment
+```
+pip3 install jupyterlab
+pip3 install ipywidgets
+pip3 install bertviz
+jupyter lab
+```

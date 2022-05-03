@@ -1,4 +1,2 @@
 .env
-local
-test-trainer
-datasets
+.ipynb_checkpoints
