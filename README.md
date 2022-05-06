@@ -40,3 +40,9 @@ pip3 install ipywidgets
 pip3 install bertviz
 jupyter lab
 ```
+
+More huggingface libraries you might need:
+
+```
+pip3 install datasets
+```
