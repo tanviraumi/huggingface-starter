@@ -26,9 +26,10 @@ Finally Check whether architecture and Cuda versions are installed properly
 python3 cuda.py
 ```
 
-Now install Huggingface transformes
+Now install Huggingface transformes and datasets
 ```
 pip3 install "transformers[sentencepiece]"
+pip3 install datasets
 ```
 
 ## Jupyter
@@ -41,8 +42,12 @@ pip3 install bertviz
 jupyter lab
 ```
 
-More huggingface libraries you might need:
+## Dependencies and utils
 
 ```
-pip3 install datasets
+pip3 install py7zr
+pip3 install absl-py
+pip3 install pynvml
+pip3 install nltk
+pip3 install rouge_score
 ```
